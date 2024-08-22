@@ -1,12 +1,21 @@
 from ultralytics import YOLO
 
-# ベースとするモデル
-model = YOLO('yolov8n.pt')
+# imports for reading .env
+import os
+from dotenv import load_dotenv, dotenv_values 
+# load .env file
+load_dotenv() 
 
-# M1 macのGPUを使ってモデルを学習
+# model = YOLO('yolov8n.pt')
+model = YOLO(os.getenv("TRAINED_MODEL"))
+
 results = model.train(
-    data='datasets/book-seg.v3i.yolov8-obb/data.yaml', 
-    epochs=3, 
-    imgsz=640, 
-    device='cpu'
+    # data='datasets/book-seg.v3i.yolov8-obb/data.yaml', 
+    # epochs=3, 
+    # imgsz=640, 
+    # device='cpu' # Train with CPU(Option for windows without GPU)
+    data=os.getenv("DATA_FILE"), 
+    epochs=os.getenv("EPOCHS"), 
+    imgsz=os.getenv("IMAGE_SIZE"), 
+    device=os.getenv("DEVICE")
 )

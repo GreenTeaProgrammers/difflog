@@ -2,7 +2,15 @@
 
 from ultralytics import YOLO
 
-model = YOLO('{PATH TO TRAINED MODEL SUCH AS best.pt or last.pt}')
+# imports for reading .env
+import os
+from dotenv import load_dotenv, dotenv_values 
+# load .env file
+load_dotenv() 
+
+# model = YOLO('best.pt')
+# model = YOLO('last.pt')
+model = YOLO(os.getenv("TRAINED_MODEL"))
 
 # Predict the model
-model.predict('{PATH TO IMAGE}', save=True)
+model.predict(os.getenv("INPUT_IMAGE"), save=True)
