@@ -15,6 +15,18 @@
 		86FBF4422C77196100B0007E /* difflogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF4412C77196100B0007E /* difflogTests.swift */; };
 		86FBF44C2C77196100B0007E /* difflogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF44B2C77196100B0007E /* difflogUITests.swift */; };
 		86FBF44E2C77196100B0007E /* difflogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */; };
+		91C415B62C78620100B780E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B52C78620100B780E8 /* HomeView.swift */; };
+		91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B72C78625200B780E8 /* AnalyticsView.swift */; };
+		91C415BA2C78629400B780E8 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B92C78629400B780E8 /* TipsView.swift */; };
+		91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415BB2C7862B100B780E8 /* LocationListView.swift */; };
+		91C415C12C7863BA00B780E8 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415C02C7863BA00B780E8 /* LocationDetailsView.swift */; };
+		91C415C42C78647800B780E8 /* DeleteConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415C32C78647800B780E8 /* DeleteConfirmationView.swift */; };
+		91C415C62C78654D00B780E8 /* CreateLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415C52C78654D00B780E8 /* CreateLocationView.swift */; };
+		91C415CB2C7866A400B780E8 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415CA2C7866A400B780E8 /* CaptureView.swift */; };
+		91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415CD2C78B18D00B780E8 /* PhotoSelectionView.swift */; };
+		91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415CF2C78B1B400B780E8 /* LodingView.swift */; };
+		91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D22C78B66000B780E8 /* CaptureResultView.swift */; };
+		91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D42C78B76000B780E8 /* CommitEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		86FBF4472C77196100B0007E /* difflogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = difflogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FBF44B2C77196100B0007E /* difflogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difflogUITests.swift; sourceTree = "<group>"; };
 		86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difflogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91C415B52C78620100B780E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		91C415B72C78625200B780E8 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		91C415B92C78629400B780E8 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		91C415BB2C7862B100B780E8 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		91C415C02C7863BA00B780E8 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		91C415C32C78647800B780E8 /* DeleteConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteConfirmationView.swift; sourceTree = "<group>"; };
+		91C415C52C78654D00B780E8 /* CreateLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLocationView.swift; sourceTree = "<group>"; };
+		91C415CA2C7866A400B780E8 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		91C415CD2C78B18D00B780E8 /* PhotoSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectionView.swift; sourceTree = "<group>"; };
+		91C415CF2C78B1B400B780E8 /* LodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingView.swift; sourceTree = "<group>"; };
+		91C415D22C78B66000B780E8 /* CaptureResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureResultView.swift; sourceTree = "<group>"; };
+		91C415D42C78B76000B780E8 /* CommitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +121,13 @@
 		86FBF42C2C77196000B0007E /* difflog */ = {
 			isa = PBXGroup;
 			children = (
-				86FBF42D2C77196000B0007E /* difflogApp.swift */,
-				86FBF42F2C77196000B0007E /* ContentView.swift */,
-				86FBF4312C77196000B0007E /* Item.swift */,
-				86FBF4332C77196100B0007E /* Assets.xcassets */,
+				91C415A92C784D9700B780E8 /* App */,
+				91C415AB2C78528A00B780E8 /* View */,
+				91C415B22C78582400B780E8 /* Reducer */,
+				91C415B32C78586C00B780E8 /* Usecase */,
+				91C415B42C7858A500B780E8 /* Repository */,
+				91C415AC2C7852B500B780E8 /* Data */,
+				91C415AA2C784EAC00B780E8 /* Assets */,
 				86FBF4352C77196100B0007E /* difflog.entitlements */,
 				86FBF4362C77196100B0007E /* Preview Content */,
 			);
@@ -130,6 +157,159 @@
 				86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */,
 			);
 			path = difflogUITests;
+			sourceTree = "<group>";
+		};
+		91C415A92C784D9700B780E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF42D2C77196000B0007E /* difflogApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		91C415AA2C784EAC00B780E8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF4332C77196100B0007E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		91C415AB2C78528A00B780E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91C415B12C78556100B780E8 /* Pages */,
+				91C415B02C78555400B780E8 /* Templates */,
+				91C415AF2C78554800B780E8 /* Organisms */,
+				91C415AE2C78548F00B780E8 /* Molecules */,
+				91C415AD2C78548200B780E8 /* Atoms */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91C415AC2C7852B500B780E8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF4312C77196000B0007E /* Item.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91C415AD2C78548200B780E8 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		91C415AE2C78548F00B780E8 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		91C415AF2C78554800B780E8 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		91C415B02C78555400B780E8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		91C415B12C78556100B780E8 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF42F2C77196000B0007E /* ContentView.swift */,
+				91C415C72C78660B00B780E8 /* Home */,
+				91C415C92C78663700B780E8 /* CaptureFlow */,
+				91C415D12C78B1BD00B780E8 /* Commit */,
+				91C415C82C78661800B780E8 /* Analytics */,
+				91C415BF2C78639000B780E8 /* Location */,
+				91C415C22C7863CF00B780E8 /* Utils */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		91C415B22C78582400B780E8 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		91C415B32C78586C00B780E8 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		91C415B42C7858A500B780E8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		91C415BF2C78639000B780E8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				91C415BB2C7862B100B780E8 /* LocationListView.swift */,
+				91C415C02C7863BA00B780E8 /* LocationDetailsView.swift */,
+				91C415C52C78654D00B780E8 /* CreateLocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		91C415C22C7863CF00B780E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				91C415B92C78629400B780E8 /* TipsView.swift */,
+				91C415C32C78647800B780E8 /* DeleteConfirmationView.swift */,
+				91C415CF2C78B1B400B780E8 /* LodingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		91C415C72C78660B00B780E8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				91C415B52C78620100B780E8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		91C415C82C78661800B780E8 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				91C415B72C78625200B780E8 /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		91C415C92C78663700B780E8 /* CaptureFlow */ = {
+			isa = PBXGroup;
+			children = (
+				91C415CA2C7866A400B780E8 /* CaptureView.swift */,
+				91C415CD2C78B18D00B780E8 /* PhotoSelectionView.swift */,
+			);
+			path = CaptureFlow;
+			sourceTree = "<group>";
+		};
+		91C415D12C78B1BD00B780E8 /* Commit */ = {
+			isa = PBXGroup;
+			children = (
+				91C415D22C78B66000B780E8 /* CaptureResultView.swift */,
+				91C415D42C78B76000B780E8 /* CommitEditView.swift */,
+			);
+			path = Commit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +445,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C415C42C78647800B780E8 /* DeleteConfirmationView.swift in Sources */,
 				86FBF4302C77196000B0007E /* ContentView.swift in Sources */,
+				91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */,
+				91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */,
+				91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */,
+				91C415BA2C78629400B780E8 /* TipsView.swift in Sources */,
+				91C415B62C78620100B780E8 /* HomeView.swift in Sources */,
+				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
 				86FBF4322C77196000B0007E /* Item.swift in Sources */,
+				91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */,
+				91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */,
+				91C415C12C7863BA00B780E8 /* LocationDetailsView.swift in Sources */,
 				86FBF42E2C77196000B0007E /* difflogApp.swift in Sources */,
+				91C415CB2C7866A400B780E8 /* CaptureView.swift in Sources */,
+				91C415C62C78654D00B780E8 /* CreateLocationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
