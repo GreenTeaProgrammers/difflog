@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DE1657E2C78C89B00FDD6BF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1657D2C78C89B00FDD6BF /* Location.swift */; };
+		6DE165802C78CA2800FDD6BF /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1657F2C78CA2800FDD6BF /* Commit.swift */; };
+		6DE165822C78CB1F00FDD6BF /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE165812C78CB1F00FDD6BF /* Diff.swift */; };
+		6DE165842C78CBC200FDD6BF /* ObjectDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE165832C78CBC200FDD6BF /* ObjectDiff.swift */; };
 		86FBF42E2C77196000B0007E /* difflogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF42D2C77196000B0007E /* difflogApp.swift */; };
 		86FBF4302C77196000B0007E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF42F2C77196000B0007E /* ContentView.swift */; };
 		86FBF4322C77196000B0007E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF4312C77196000B0007E /* Item.swift */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DE1657D2C78C89B00FDD6BF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6DE1657F2C78CA2800FDD6BF /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		6DE165812C78CB1F00FDD6BF /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
+		6DE165832C78CBC200FDD6BF /* ObjectDiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDiff.swift; sourceTree = "<group>"; };
 		86FBF42A2C77196000B0007E /* difflog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = difflog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FBF42D2C77196000B0007E /* difflogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difflogApp.swift; sourceTree = "<group>"; };
 		86FBF42F2C77196000B0007E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DE1657C2C78C86100FDD6BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1657D2C78C89B00FDD6BF /* Location.swift */,
+				6DE1657F2C78CA2800FDD6BF /* Commit.swift */,
+				6DE165812C78CB1F00FDD6BF /* Diff.swift */,
+				6DE165832C78CBC200FDD6BF /* ObjectDiff.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		86FBF4212C77196000B0007E = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +140,7 @@
 		86FBF42C2C77196000B0007E /* difflog */ = {
 			isa = PBXGroup;
 			children = (
+				6DE1657C2C78C86100FDD6BF /* Models */,
 				91C415A92C784D9700B780E8 /* App */,
 				91C415AB2C78528A00B780E8 /* View */,
 				91C415B22C78582400B780E8 /* Reducer */,
@@ -447,9 +467,13 @@
 			files = (
 				91C415C42C78647800B780E8 /* DeleteConfirmationView.swift in Sources */,
 				86FBF4302C77196000B0007E /* ContentView.swift in Sources */,
+				6DE165802C78CA2800FDD6BF /* Commit.swift in Sources */,
+				6DE1657E2C78C89B00FDD6BF /* Location.swift in Sources */,
 				91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */,
 				91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */,
+				6DE165822C78CB1F00FDD6BF /* Diff.swift in Sources */,
 				91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */,
+				6DE165842C78CBC200FDD6BF /* ObjectDiff.swift in Sources */,
 				91C415BA2C78629400B780E8 /* TipsView.swift in Sources */,
 				91C415B62C78620100B780E8 /* HomeView.swift in Sources */,
 				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
