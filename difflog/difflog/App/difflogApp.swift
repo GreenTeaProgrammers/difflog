@@ -4,7 +4,8 @@ import SwiftData
 
 @main
 struct difflogApp: App {
-    //データベースの初期化
+
+    //MARK: - データベースの初期化
     var sharedModelContainer: ModelContainer = {
             let schema = Schema([
                 Item.self,
@@ -18,7 +19,7 @@ struct difflogApp: App {
             }
         }()
 
-
+    //MARK: - エントリーポイント
     var body: some Scene {
         WindowGroup {
             ContentView()
