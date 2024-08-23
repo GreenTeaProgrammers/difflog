@@ -97,10 +97,10 @@
 		86FBF42C2C77196000B0007E /* difflog */ = {
 			isa = PBXGroup;
 			children = (
-				86FBF42D2C77196000B0007E /* difflogApp.swift */,
-				86FBF42F2C77196000B0007E /* ContentView.swift */,
-				86FBF4312C77196000B0007E /* Item.swift */,
-				86FBF4332C77196100B0007E /* Assets.xcassets */,
+				91C415A92C784D9700B780E8 /* App */,
+				91C415AB2C78528A00B780E8 /* View */,
+				91C415AC2C7852B500B780E8 /* Data */,
+				91C415AA2C784EAC00B780E8 /* Assets */,
 				86FBF4352C77196100B0007E /* difflog.entitlements */,
 				86FBF4362C77196100B0007E /* Preview Content */,
 			);
@@ -130,6 +130,78 @@
 				86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */,
 			);
 			path = difflogUITests;
+			sourceTree = "<group>";
+		};
+		91C415A92C784D9700B780E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF42D2C77196000B0007E /* difflogApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		91C415AA2C784EAC00B780E8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF4332C77196100B0007E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		91C415AB2C78528A00B780E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91C415B12C78556100B780E8 /* Pages */,
+				91C415B02C78555400B780E8 /* Templates */,
+				91C415AF2C78554800B780E8 /* Organisms */,
+				91C415AE2C78548F00B780E8 /* Molecules */,
+				91C415AD2C78548200B780E8 /* Atoms */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91C415AC2C7852B500B780E8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF4312C77196000B0007E /* Item.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91C415AD2C78548200B780E8 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		91C415AE2C78548F00B780E8 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		91C415AF2C78554800B780E8 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		91C415B02C78555400B780E8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		91C415B12C78556100B780E8 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF42F2C77196000B0007E /* ContentView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
