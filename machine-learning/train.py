@@ -15,7 +15,7 @@ results = model.train(
     # imgsz=640, 
     # device='cpu' # Train with CPU(Option for windows without GPU)
     data=os.getenv("DATA_FILE"), 
-    epochs=os.getenv("EPOCHS"), 
+    epochs=int(os.getenv("EPOCHS")), 
     imgsz=os.getenv("IMAGE_SIZE"), 
     device=os.getenv("DEVICE")
 )
