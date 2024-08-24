@@ -27,6 +27,24 @@
 		91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415CF2C78B1B400B780E8 /* LodingView.swift */; };
 		91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D22C78B66000B780E8 /* CaptureResultView.swift */; };
 		91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D42C78B76000B780E8 /* CommitEditView.swift */; };
+		91C415D82C78CA9E00B780E8 /* ColorBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D72C78CA9E00B780E8 /* ColorBlockView.swift */; };
+		91C415DA2C78CAFE00B780E8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D92C78CAFE00B780E8 /* WelcomeView.swift */; };
+		91C415DC2C78CBA900B780E8 /* HomelMonthLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415DB2C78CBA900B780E8 /* HomelMonthLabel.swift */; };
+		91C415DF2C78D32400B780E8 /* HomeTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415DE2C78D32400B780E8 /* HomeTabBarView.swift */; };
+		91C415E22C78DA1500B780E8 /* TabIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415E12C78DA1500B780E8 /* TabIconView.swift */; };
+		91C415E62C79C7FD00B780E8 /* HorizonDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415E52C79C7FD00B780E8 /* HorizonDialView.swift */; };
+		91C415E92C79C90200B780E8 /* SelectionScopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415E82C79C90200B780E8 /* SelectionScopeView.swift */; };
+		91C415EB2C79C9E800B780E8 /* SelectionNameListInDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415EA2C79C9E800B780E8 /* SelectionNameListInDialView.swift */; };
+		91C415EE2C79CAB200B780E8 /* ColorBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415ED2C79CAB200B780E8 /* ColorBlocks.swift */; };
+		91C415F02C79E44100B780E8 /* yearlyMonthLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415EF2C79E44100B780E8 /* yearlyMonthLabel.swift */; };
+		91C415F22C79EC3C00B780E8 /* HeaderYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415F12C79EC3C00B780E8 /* HeaderYearView.swift */; };
+		91C415F42C79EC9800B780E8 /* HeaderDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415F32C79EC9800B780E8 /* HeaderDayView.swift */; };
+		91C415F82C79EDBF00B780E8 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415F72C79EDBF00B780E8 /* IconView.swift */; };
+		91C415FA2C79EDE800B780E8 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415F92C79EDE800B780E8 /* TitleView.swift */; };
+		91C415FC2C79EE1400B780E8 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415FB2C79EE1400B780E8 /* CountView.swift */; };
+		91C415FE2C79EEDB00B780E8 /* IncreaseDecreaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415FD2C79EEDB00B780E8 /* IncreaseDecreaseView.swift */; };
+		91C416002C7A225000B780E8 /* HorizonDialReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415FF2C7A225000B780E8 /* HorizonDialReducer.swift */; };
+		91C416022C7A22B800B780E8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 91C416012C7A22B800B780E8 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +89,23 @@
 		91C415CF2C78B1B400B780E8 /* LodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingView.swift; sourceTree = "<group>"; };
 		91C415D22C78B66000B780E8 /* CaptureResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureResultView.swift; sourceTree = "<group>"; };
 		91C415D42C78B76000B780E8 /* CommitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitEditView.swift; sourceTree = "<group>"; };
+		91C415D72C78CA9E00B780E8 /* ColorBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlockView.swift; sourceTree = "<group>"; };
+		91C415D92C78CAFE00B780E8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		91C415DB2C78CBA900B780E8 /* HomelMonthLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelMonthLabel.swift; sourceTree = "<group>"; };
+		91C415DE2C78D32400B780E8 /* HomeTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarView.swift; sourceTree = "<group>"; };
+		91C415E12C78DA1500B780E8 /* TabIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIconView.swift; sourceTree = "<group>"; };
+		91C415E52C79C7FD00B780E8 /* HorizonDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonDialView.swift; sourceTree = "<group>"; };
+		91C415E82C79C90200B780E8 /* SelectionScopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScopeView.swift; sourceTree = "<group>"; };
+		91C415EA2C79C9E800B780E8 /* SelectionNameListInDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionNameListInDialView.swift; sourceTree = "<group>"; };
+		91C415ED2C79CAB200B780E8 /* ColorBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlocks.swift; sourceTree = "<group>"; };
+		91C415EF2C79E44100B780E8 /* yearlyMonthLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yearlyMonthLabel.swift; sourceTree = "<group>"; };
+		91C415F12C79EC3C00B780E8 /* HeaderYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderYearView.swift; sourceTree = "<group>"; };
+		91C415F32C79EC9800B780E8 /* HeaderDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDayView.swift; sourceTree = "<group>"; };
+		91C415F72C79EDBF00B780E8 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		91C415F92C79EDE800B780E8 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		91C415FB2C79EE1400B780E8 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
+		91C415FD2C79EEDB00B780E8 /* IncreaseDecreaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreaseDecreaseView.swift; sourceTree = "<group>"; };
+		91C415FF2C7A225000B780E8 /* HorizonDialReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonDialReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C416022C7A22B800B780E8 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +234,10 @@
 		91C415AD2C78548200B780E8 /* Atoms */ = {
 			isa = PBXGroup;
 			children = (
+				91C415F52C79ECE100B780E8 /* HorizontalCommitCard */,
+				91C415E72C79C8C700B780E8 /* HorizonDialView */,
+				91C415E02C78D9D500B780E8 /* TabBarView */,
+				91C415D62C78CA6A00B780E8 /* HomeView */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -205,6 +245,10 @@
 		91C415AE2C78548F00B780E8 /* Molecules */ = {
 			isa = PBXGroup;
 			children = (
+				91C415F62C79ED8B00B780E8 /* HorizontalCommitCard */,
+				91C415EC2C79CA8300B780E8 /* HomeView */,
+				91C415DE2C78D32400B780E8 /* HomeTabBarView.swift */,
+				91C415E52C79C7FD00B780E8 /* HorizonDialView.swift */,
 			);
 			path = Molecules;
 			sourceTree = "<group>";
@@ -240,6 +284,7 @@
 		91C415B22C78582400B780E8 /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
+				91C415FF2C7A225000B780E8 /* HorizonDialReducer.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -312,6 +357,62 @@
 			path = Commit;
 			sourceTree = "<group>";
 		};
+		91C415D62C78CA6A00B780E8 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				91C415D72C78CA9E00B780E8 /* ColorBlockView.swift */,
+				91C415D92C78CAFE00B780E8 /* WelcomeView.swift */,
+				91C415DB2C78CBA900B780E8 /* HomelMonthLabel.swift */,
+				91C415EF2C79E44100B780E8 /* yearlyMonthLabel.swift */,
+				91C415F12C79EC3C00B780E8 /* HeaderYearView.swift */,
+				91C415F32C79EC9800B780E8 /* HeaderDayView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		91C415E02C78D9D500B780E8 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				91C415E12C78DA1500B780E8 /* TabIconView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		91C415E72C79C8C700B780E8 /* HorizonDialView */ = {
+			isa = PBXGroup;
+			children = (
+				91C415E82C79C90200B780E8 /* SelectionScopeView.swift */,
+				91C415EA2C79C9E800B780E8 /* SelectionNameListInDialView.swift */,
+			);
+			path = HorizonDialView;
+			sourceTree = "<group>";
+		};
+		91C415EC2C79CA8300B780E8 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				91C415ED2C79CAB200B780E8 /* ColorBlocks.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		91C415F52C79ECE100B780E8 /* HorizontalCommitCard */ = {
+			isa = PBXGroup;
+			children = (
+				91C415F72C79EDBF00B780E8 /* IconView.swift */,
+				91C415F92C79EDE800B780E8 /* TitleView.swift */,
+				91C415FB2C79EE1400B780E8 /* CountView.swift */,
+				91C415FD2C79EEDB00B780E8 /* IncreaseDecreaseView.swift */,
+			);
+			path = HorizontalCommitCard;
+			sourceTree = "<group>";
+		};
+		91C415F62C79ED8B00B780E8 /* HorizontalCommitCard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HorizontalCommitCard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,6 +429,9 @@
 			dependencies = (
 			);
 			name = difflog;
+			packageProductDependencies = (
+				91C416012C7A22B800B780E8 /* ComposableArchitecture */,
+			);
 			productName = difflog;
 			productReference = 86FBF42A2C77196000B0007E /* difflog.app */;
 			productType = "com.apple.product-type.application";
@@ -445,21 +549,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C416002C7A225000B780E8 /* HorizonDialReducer.swift in Sources */,
 				91C415C42C78647800B780E8 /* DeleteConfirmationView.swift in Sources */,
 				86FBF4302C77196000B0007E /* ContentView.swift in Sources */,
 				91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */,
+				91C415FC2C79EE1400B780E8 /* CountView.swift in Sources */,
+				91C415F42C79EC9800B780E8 /* HeaderDayView.swift in Sources */,
 				91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */,
 				91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */,
+				91C415FA2C79EDE800B780E8 /* TitleView.swift in Sources */,
+				91C415FE2C79EEDB00B780E8 /* IncreaseDecreaseView.swift in Sources */,
+				91C415DA2C78CAFE00B780E8 /* WelcomeView.swift in Sources */,
+				91C415F22C79EC3C00B780E8 /* HeaderYearView.swift in Sources */,
+				91C415EB2C79C9E800B780E8 /* SelectionNameListInDialView.swift in Sources */,
+				91C415D82C78CA9E00B780E8 /* ColorBlockView.swift in Sources */,
 				91C415BA2C78629400B780E8 /* TipsView.swift in Sources */,
 				91C415B62C78620100B780E8 /* HomeView.swift in Sources */,
+				91C415DC2C78CBA900B780E8 /* HomelMonthLabel.swift in Sources */,
+				91C415E92C79C90200B780E8 /* SelectionScopeView.swift in Sources */,
 				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
 				86FBF4322C77196000B0007E /* Item.swift in Sources */,
 				91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */,
 				91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */,
+				91C415DF2C78D32400B780E8 /* HomeTabBarView.swift in Sources */,
+				91C415EE2C79CAB200B780E8 /* ColorBlocks.swift in Sources */,
 				91C415C12C7863BA00B780E8 /* LocationDetailsView.swift in Sources */,
+				91C415E62C79C7FD00B780E8 /* HorizonDialView.swift in Sources */,
 				86FBF42E2C77196000B0007E /* difflogApp.swift in Sources */,
 				91C415CB2C7866A400B780E8 /* CaptureView.swift in Sources */,
+				91C415F02C79E44100B780E8 /* yearlyMonthLabel.swift in Sources */,
+				91C415E22C78DA1500B780E8 /* TabIconView.swift in Sources */,
 				91C415C62C78654D00B780E8 /* CreateLocationView.swift in Sources */,
+				91C415F82C79EDBF00B780E8 /* IconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,6 +940,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91C416012C7A22B800B780E8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86E40CC32C772B91008B44FA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86FBF4222C77196000B0007E /* Project object */;
 }
