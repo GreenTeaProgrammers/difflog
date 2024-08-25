@@ -17,5 +17,5 @@ results = model.train(
     data=os.getenv("DATA_FILE"), 
     epochs=int(os.getenv("EPOCHS")), 
     imgsz=os.getenv("IMAGE_SIZE"), 
-    device=os.getenv("DEVICE")
+    device=int(os.getenv("DEVICE"))
 )
