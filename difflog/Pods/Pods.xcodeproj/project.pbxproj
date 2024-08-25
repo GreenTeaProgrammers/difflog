@@ -66,7 +66,7 @@
 		692592C9ACFAA7904464A8CAFB89AC02 /* Pods-difflog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-difflog.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74FA84503B31CD52C46D994D5BA17D69 /* Pods-difflog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-difflog-Info.plist"; sourceTree = "<group>"; };
-		7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftUIWheelPicker; path = SwiftUIWheelPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIWheelPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8253FFB6B0737402B4E4E1D403C74EE5 /* Pods-difflog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-difflog-dummy.m"; sourceTree = "<group>"; };
 		85601E57D07208133C1C138D887C2AE4 /* Pods-difflogTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-difflogTests-dummy.m"; sourceTree = "<group>"; };
 		86F72E359A8BD9A51E0227A7BA95DAE1 /* Pods-difflog-difflogUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-difflog-difflogUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -75,13 +75,13 @@
 		94C37EC858BB8E8DE35355CEA5DEA1DE /* SwiftUIWheelPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUIWheelPicker.modulemap; sourceTree = "<group>"; };
 		98A03A3EBA18C13431D1E355063571E2 /* Pods-difflogTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-difflogTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B46DB6FC3678F428414F5667FE7F1E3 /* SwiftUIWheelPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIWheelPicker.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A62A4C7BE6CD1BF52F3BE8143A1A5A74 /* SwiftUIWheelPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUIWheelPicker-dummy.m"; sourceTree = "<group>"; };
 		A818C17B132426B3C29E2D2B135282D2 /* Pods-difflog-difflogUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-difflog-difflogUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B30966AF96CDCC32F2D01A4FB2315E5C /* Pods-difflog-difflogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-difflog-difflogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B467B7269696F27AAAE22C1B893A9715 /* SwiftUIWheelPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUIWheelPicker-Info.plist"; sourceTree = "<group>"; };
 		B8CAFD83F62A93FC0380A6479377ADD8 /* Pods-difflogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-difflogTests.release.xcconfig"; sourceTree = "<group>"; };
-		C0D644FDEBDFA31308B79C8135AA8D48 /* Pods-difflog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-difflog"; path = Pods_difflog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D644FDEBDFA31308B79C8135AA8D48 /* Pods_difflog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_difflog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C1C89C2F411ED0B0F015C1179A51FB /* SwiftUIWheelPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIWheelPicker.swift; path = SwiftUIWheelPicker/Classes/SwiftUIWheelPicker.swift; sourceTree = "<group>"; };
 		C5B9BA15378D9E111954B446DFA2C86D /* Pods-difflog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-difflog-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0924AC2D4A7E05C0145480ECE387965 /* Pods-difflog-difflogUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-difflog-difflogUITests.modulemap"; sourceTree = "<group>"; };
@@ -223,10 +223,10 @@
 		E8DF50B4C7155443F8C176503693D9A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0D644FDEBDFA31308B79C8135AA8D48 /* Pods-difflog */,
+				C0D644FDEBDFA31308B79C8135AA8D48 /* Pods_difflog.framework */,
 				2B5C402ACE2AA9DAD7D2464854B2D3E3 /* Pods-difflog-difflogUITests */,
 				5D73106C208ED4A55AD606DCF365DBE9 /* Pods-difflogTests */,
-				7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker */,
+				7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,7 +237,6 @@
 				C4C1C89C2F411ED0B0F015C1179A51FB /* SwiftUIWheelPicker.swift */,
 				ED7B6630BF13467B0123B6F5EC1D5907 /* Support Files */,
 			);
-			name = SwiftUIWheelPicker;
 			path = SwiftUIWheelPicker;
 			sourceTree = "<group>";
 		};
@@ -328,7 +327,7 @@
 			);
 			name = SwiftUIWheelPicker;
 			productName = SwiftUIWheelPicker;
-			productReference = 7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker */;
+			productReference = 7ADED5840019A146CE90852E461A90B6 /* SwiftUIWheelPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B3A2215FE6C5CA72767CF6860E14AD56 /* Pods-difflogTests */ = {
@@ -366,7 +365,7 @@
 			);
 			name = "Pods-difflog";
 			productName = Pods_difflog;
-			productReference = C0D644FDEBDFA31308B79C8135AA8D48 /* Pods-difflog */;
+			productReference = C0D644FDEBDFA31308B79C8135AA8D48 /* Pods_difflog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -387,7 +386,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
 			productRefGroup = E8DF50B4C7155443F8C176503693D9A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  difflog
-//
-//  Created by 片岩拓也 on 2024/08/22.
-//
-
 import Foundation
 import SwiftData
 

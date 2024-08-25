@@ -21,6 +21,9 @@
 		86FBF4422C77196100B0007E /* difflogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF4412C77196100B0007E /* difflogTests.swift */; };
 		86FBF44C2C77196100B0007E /* difflogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF44B2C77196100B0007E /* difflogUITests.swift */; };
 		86FBF44E2C77196100B0007E /* difflogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */; };
+		912675242C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912675232C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift */; };
+		912675262C7B50A400378D91 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 912675252C7B50A400378D91 /* ComposableArchitecture */; };
+		9126752A2C7B52C200378D91 /* HorizontalWheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */; };
 		91C415B62C78620100B780E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B52C78620100B780E8 /* HomeView.swift */; };
 		91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B72C78625200B780E8 /* AnalyticsView.swift */; };
 		91C415BA2C78629400B780E8 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B92C78629400B780E8 /* TipsView.swift */; };
@@ -76,6 +79,8 @@
 		86FBF44B2C77196100B0007E /* difflogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difflogUITests.swift; sourceTree = "<group>"; };
 		86FBF44D2C77196100B0007E /* difflogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = difflogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A4E9195E7F89166F6B0BC69 /* Pods-difflog-difflogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-difflog-difflogUITests.release.xcconfig"; path = "Target Support Files/Pods-difflog-difflogUITests/Pods-difflog-difflogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		912675232C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWheelPickerReducer.swift; sourceTree = "<group>"; };
+		912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWheelPickerView.swift; sourceTree = "<group>"; };
 		91C415B52C78620100B780E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91C415B72C78625200B780E8 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		91C415B92C78629400B780E8 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912675262C7B50A400378D91 /* ComposableArchitecture in Frameworks */,
 				19B1084EFA187538354D73D0 /* Pods_difflog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +130,7 @@
 		6DE1657C2C78C86100FDD6BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				86FBF4312C77196000B0007E /* Item.swift */,
 				6DE1657D2C78C89B00FDD6BF /* Location.swift */,
 				6DE1657F2C78CA2800FDD6BF /* Commit.swift */,
 				6DE165812C78CB1F00FDD6BF /* Diff.swift */,
@@ -170,13 +177,12 @@
 		86FBF42C2C77196000B0007E /* difflog */ = {
 			isa = PBXGroup;
 			children = (
-				6DE1657C2C78C86100FDD6BF /* Models */,
 				91C415A92C784D9700B780E8 /* App */,
 				91C415AB2C78528A00B780E8 /* View */,
 				91C415B22C78582400B780E8 /* Reducer */,
 				91C415B32C78586C00B780E8 /* Usecase */,
 				91C415B42C7858A500B780E8 /* Repository */,
-				91C415AC2C7852B500B780E8 /* Data */,
+				6DE1657C2C78C86100FDD6BF /* Models */,
 				91C415AA2C784EAC00B780E8 /* Assets */,
 				86FBF4352C77196100B0007E /* difflog.entitlements */,
 				86FBF4362C77196100B0007E /* Preview Content */,
@@ -209,6 +215,28 @@
 			path = difflogUITests;
 			sourceTree = "<group>";
 		};
+		912675272C7B520400378D91 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				86FBF42F2C77196000B0007E /* ContentView.swift */,
+				91C415C72C78660B00B780E8 /* Home */,
+				91C415C92C78663700B780E8 /* CaptureFlow */,
+				91C415D12C78B1BD00B780E8 /* Commit */,
+				91C415C82C78661800B780E8 /* Analytics */,
+				91C415BF2C78639000B780E8 /* Location */,
+				91C415C22C7863CF00B780E8 /* Utils */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		912675282C7B521800378D91 /* Molecule */ = {
+			isa = PBXGroup;
+			children = (
+				912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */,
+			);
+			path = Molecule;
+			sourceTree = "<group>";
+		};
 		91C415A92C784D9700B780E8 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,68 +256,16 @@
 		91C415AB2C78528A00B780E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				91C415B12C78556100B780E8 /* Pages */,
-				91C415B02C78555400B780E8 /* Templates */,
-				91C415AF2C78554800B780E8 /* Organisms */,
-				91C415AE2C78548F00B780E8 /* Molecules */,
-				91C415AD2C78548200B780E8 /* Atoms */,
+				912675272C7B520400378D91 /* Pages */,
+				912675282C7B521800378D91 /* Molecule */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		91C415AC2C7852B500B780E8 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				86FBF4312C77196000B0007E /* Item.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		91C415AD2C78548200B780E8 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		91C415AE2C78548F00B780E8 /* Molecules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Molecules;
-			sourceTree = "<group>";
-		};
-		91C415AF2C78554800B780E8 /* Organisms */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Organisms;
-			sourceTree = "<group>";
-		};
-		91C415B02C78555400B780E8 /* Templates */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Templates;
-			sourceTree = "<group>";
-		};
-		91C415B12C78556100B780E8 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				86FBF42F2C77196000B0007E /* ContentView.swift */,
-				91C415C72C78660B00B780E8 /* Home */,
-				91C415C92C78663700B780E8 /* CaptureFlow */,
-				91C415D12C78B1BD00B780E8 /* Commit */,
-				91C415C82C78661800B780E8 /* Analytics */,
-				91C415BF2C78639000B780E8 /* Location */,
-				91C415C22C7863CF00B780E8 /* Utils */,
-			);
-			path = Pages;
 			sourceTree = "<group>";
 		};
 		91C415B22C78582400B780E8 /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
+				912675232C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -390,6 +366,9 @@
 			dependencies = (
 			);
 			name = difflog;
+			packageProductDependencies = (
+				912675252C7B50A400378D91 /* ComposableArchitecture */,
+			);
 			productName = difflog;
 			productReference = 86FBF42A2C77196000B0007E /* difflog.app */;
 			productType = "com.apple.product-type.application";
@@ -619,12 +598,14 @@
 				6DE1657E2C78C89B00FDD6BF /* Location.swift in Sources */,
 				91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */,
 				91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */,
+				9126752A2C7B52C200378D91 /* HorizontalWheelPickerView.swift in Sources */,
 				6DE165822C78CB1F00FDD6BF /* Diff.swift in Sources */,
 				91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */,
 				6DE165842C78CBC200FDD6BF /* ObjectDiff.swift in Sources */,
 				91C415BA2C78629400B780E8 /* TipsView.swift in Sources */,
 				91C415B62C78620100B780E8 /* HomeView.swift in Sources */,
 				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
+				912675242C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift in Sources */,
 				86FBF4322C77196000B0007E /* Item.swift in Sources */,
 				91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */,
 				91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */,
@@ -999,6 +980,13 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		912675252C7B50A400378D91 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86FBF4222C77196000B0007E /* Project object */;
 }
