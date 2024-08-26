@@ -4,7 +4,7 @@ import ComposableArchitecture
 @Reducer
 struct HorizontalWheelPickerReducer {
     @ObservableState
-    struct HorizontalWheelPickerState: Equatable {
+    struct HorizontalWheelPickerState: Equatable{
         var locations: [String] = []
         var currentLocation: String?
     }
