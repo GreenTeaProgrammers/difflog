@@ -2,8 +2,9 @@ import SwiftUI
 import Foundation
 
 struct TabBarView: View {
+    
 
-    // タブの選択項目を保持する
+    
     @State var selection = 1
 
     var body: some View {
@@ -13,18 +14,18 @@ struct TabBarView: View {
                 .tabItem {
                     Label("LocationList", systemImage: "location.viewfinder")
                 }
-                .tag(1)
+                .tag(3)
             CaptreView()
                 .tabItem {
                     Label("Capture", systemImage: "camera")
                 }
                 .tag(2)
 
-            HomeView()
+            HomeView(HomeHeaderLabel: "Wellcome")
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-                .tag(3)
+                .tag(1)
 
            
 
