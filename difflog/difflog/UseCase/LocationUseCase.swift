@@ -67,31 +67,3 @@ class LocationUsecase: ObservableObject {
         try modelContext.save()
     }
 }
-
-// ContentViewの例（実際の実装に合わせて調整してください）
-struct ContentView: View {
-    @EnvironmentObject var locationUsecase: LocationUsecase
-    @State private var locations: [Location] = []
-    
-    var body: some View {
-        NavigationView {
-            List(locations, id: \.id) { location in
-                Text(location.name)
-            }
-            .navigationTitle("Locations")
-            .onAppear {
-                loadLocations()
-            }
-        }
-    }
-    
-    private func loadLocations() {
-        Task {
-            do {
-                locations = try await locationUsecase.getAllLocations()
-            } catch {
-                print("Failed to load locations: \(error)")
-            }
-        }
-    }
-}
