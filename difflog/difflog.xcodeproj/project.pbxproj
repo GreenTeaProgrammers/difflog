@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		056952EDD4DB9D967C1F529D /* Pods_difflog_difflogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE35E826BAC48634691D9000 /* Pods_difflog_difflogUITests.framework */; };
 		19B1084EFA187538354D73D0 /* Pods_difflog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569C84A670A027FD0A73346D /* Pods_difflog.framework */; };
+		6DA7038B2C7CB231008DA3DB /* LocationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7038A2C7CB231008DA3DB /* LocationUseCase.swift */; };
 		6DE1657E2C78C89B00FDD6BF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1657D2C78C89B00FDD6BF /* Location.swift */; };
 		6DE165802C78CA2800FDD6BF /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1657F2C78CA2800FDD6BF /* Commit.swift */; };
 		6DE165822C78CB1F00FDD6BF /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE165812C78CB1F00FDD6BF /* Diff.swift */; };
@@ -24,7 +25,6 @@
 		912675242C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912675232C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift */; };
 		912675262C7B50A400378D91 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 912675252C7B50A400378D91 /* ComposableArchitecture */; };
 		9126752A2C7B52C200378D91 /* HorizontalWheelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */; };
-		9194C3E42C7C59780094F5FA /* HorizontalWheelPickerUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194C3E32C7C59780094F5FA /* HorizontalWheelPickerUsecase.swift */; };
 		91C415B62C78620100B780E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B52C78620100B780E8 /* HomeView.swift */; };
 		91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B72C78625200B780E8 /* AnalyticsView.swift */; };
 		91C415BA2C78629400B780E8 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415B92C78629400B780E8 /* TipsView.swift */; };
@@ -63,6 +63,7 @@
 		3AFCB1744B1FFC6C63E633CD /* Pods-difflog-difflogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-difflog-difflogUITests.debug.xcconfig"; path = "Target Support Files/Pods-difflog-difflogUITests/Pods-difflog-difflogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ACE145A28832EA0A10A5A66 /* Pods_difflogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_difflogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		569C84A670A027FD0A73346D /* Pods_difflog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_difflog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA7038A2C7CB231008DA3DB /* LocationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUseCase.swift; sourceTree = "<group>"; };
 		6DE1657D2C78C89B00FDD6BF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		6DE1657F2C78CA2800FDD6BF /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
 		6DE165812C78CB1F00FDD6BF /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		8A4E9195E7F89166F6B0BC69 /* Pods-difflog-difflogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-difflog-difflogUITests.release.xcconfig"; path = "Target Support Files/Pods-difflog-difflogUITests/Pods-difflog-difflogUITests.release.xcconfig"; sourceTree = "<group>"; };
 		912675232C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWheelPickerReducer.swift; sourceTree = "<group>"; };
 		912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWheelPickerView.swift; sourceTree = "<group>"; };
-		9194C3E32C7C59780094F5FA /* HorizontalWheelPickerUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWheelPickerUsecase.swift; sourceTree = "<group>"; };
 		91C415B52C78620100B780E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91C415B72C78625200B780E8 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		91C415B92C78629400B780E8 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		9194C3E22C7C59550094F5FA /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
-				9194C3E32C7C59780094F5FA /* HorizontalWheelPickerUsecase.swift */,
+				6DA7038A2C7CB231008DA3DB /* LocationUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -602,7 +602,6 @@
 				91C415D02C78B1B400B780E8 /* LodingView.swift in Sources */,
 				91C415CE2C78B18D00B780E8 /* PhotoSelectionView.swift in Sources */,
 				9126752A2C7B52C200378D91 /* HorizontalWheelPickerView.swift in Sources */,
-				9194C3E42C7C59780094F5FA /* HorizontalWheelPickerUsecase.swift in Sources */,
 				6DE165822C78CB1F00FDD6BF /* Diff.swift in Sources */,
 				91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */,
 				6DE165842C78CBC200FDD6BF /* ObjectDiff.swift in Sources */,
@@ -611,6 +610,7 @@
 				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
 				912675242C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift in Sources */,
 				86FBF4322C77196000B0007E /* Item.swift in Sources */,
+				6DA7038B2C7CB231008DA3DB /* LocationUseCase.swift in Sources */,
 				91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */,
 				91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */,
 				91C415C12C7863BA00B780E8 /* LocationDetailsView.swift in Sources */,
@@ -777,7 +777,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"difflog/Preview Content\"";
-				DEVELOPMENT_TEAM = 8X36L56SFQ;
+				DEVELOPMENT_TEAM = Q7363X6T55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -815,7 +815,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"difflog/Preview Content\"";
-				DEVELOPMENT_TEAM = 8X36L56SFQ;
+				DEVELOPMENT_TEAM = Q7363X6T55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

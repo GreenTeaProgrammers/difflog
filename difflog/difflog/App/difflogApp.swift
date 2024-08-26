@@ -6,6 +6,9 @@ struct difflogApp: App {
     // MARK: - データベースの初期化
     let sharedModelContainer: ModelContainer
     
+    // MARK: - LocationUsecase
+    @StateObject private var locationUsecase: LocationUsecase
+    
     init() {
         do {
             let schema = Schema([
@@ -13,14 +16,13 @@ struct difflogApp: App {
             ])
             let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
             sharedModelContainer = try ModelContainer(for: schema, configurations: [modelConfiguration])
+            
+            // LocationUsecaseの初期化
+            let context = sharedModelContainer.mainContext
+            _locationUsecase = StateObject(wrappedValue: LocationUsecase(modelContext: context))
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
-    }
-    
-    // MARK: - LocationUsecase
-    var locationUsecase: LocationUsecase {
-        LocationUsecase(modelContext: sharedModelContainer.mainContext)
     }
     
     // MARK: - エントリーポイント
@@ -29,32 +31,6 @@ struct difflogApp: App {
             ContentView()
                 .environment(\.modelContext, sharedModelContainer.mainContext)
                 .environmentObject(locationUsecase)
-        }
-    }
-}
-
-// ContentViewの例（実際の実装に合わせて調整してください）
-struct ContentView: View {
-    @EnvironmentObject var locationUsecase: LocationUsecase
-    @State private var locations: [Location] = []
-    
-    var body: some View {
-        NavigationView {
-            List(locations, id: \.id) { location in
-                Text(location.name)
-            }
-            .navigationTitle("Locations")
-            .onAppear {
-                loadLocations()
-            }
-        }
-    }
-    
-    private func loadLocations() {
-        do {
-            locations = try locationUsecase.getAllLocations()
-        } catch {
-            print("Failed to load locations: \(error)")
         }
     }
 }
