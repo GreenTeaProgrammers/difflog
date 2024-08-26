@@ -1,29 +1,60 @@
-
 import SwiftUI
 import SwiftData
 
 @main
 struct difflogApp: App {
-
-    //MARK: - データベースの初期化
-    var sharedModelContainer: ModelContainer = {
+    // MARK: - データベースの初期化
+    let sharedModelContainer: ModelContainer
+    
+    init() {
+        do {
             let schema = Schema([
-                Item.self,
+                Location.self,
             ])
             let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-            do {
-                return try ModelContainer(for: schema, configurations: [modelConfiguration])
-            } catch {
-                fatalError("Could not create ModelContainer: \(error)")
-            }
-        }()
-
-    //MARK: - エントリーポイント
+            sharedModelContainer = try ModelContainer(for: schema, configurations: [modelConfiguration])
+        } catch {
+            fatalError("Could not create ModelContainer: \(error)")
+        }
+    }
+    
+    // MARK: - LocationUsecase
+    var locationUsecase: LocationUsecase {
+        LocationUsecase(modelContext: sharedModelContainer.mainContext)
+    }
+    
+    // MARK: - エントリーポイント
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.modelContext, sharedModelContainer.mainContext)
+                .environmentObject(locationUsecase)
         }
-        .modelContainer(sharedModelContainer)
+    }
+}
+
+// ContentViewの例（実際の実装に合わせて調整してください）
+struct ContentView: View {
+    @EnvironmentObject var locationUsecase: LocationUsecase
+    @State private var locations: [Location] = []
+    
+    var body: some View {
+        NavigationView {
+            List(locations, id: \.id) { location in
+                Text(location.name)
+            }
+            .navigationTitle("Locations")
+            .onAppear {
+                loadLocations()
+            }
+        }
+    }
+    
+    private func loadLocations() {
+        do {
+            locations = try locationUsecase.getAllLocations()
+        } catch {
+            print("Failed to load locations: \(error)")
+        }
     }
 }
