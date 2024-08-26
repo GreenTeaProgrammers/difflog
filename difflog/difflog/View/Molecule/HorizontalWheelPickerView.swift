@@ -12,9 +12,11 @@ struct HorizontalWheelPickerView: View {
         
     var body: some View {
         VStack {
-            Text("Selected Value: \(currentSelected)")
+            Text("state: \(currentSelected)")
                 .font(.title)
-            Text("\(items)")
+            Text("reducer: \(store.currentLocation)")
+                .font(.title)
+            
             
             SwiftUIWheelPicker($indexValue, items: $items) { value in
                 GeometryReader { reader in
@@ -36,6 +38,7 @@ struct HorizontalWheelPickerView: View {
         }
         .onChange(of: indexValue) { oldValue, newValue in
             currentSelected = itmesName[newValue]
+            store.send(.updateCurrentLocation(currentSelected))
         }
         
     }
