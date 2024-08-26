@@ -46,7 +46,9 @@ class LocationUsecase {
     
     // MARK: - Helper Methods
     
-    func locationsToStrings(_ locations: [Location]) -> [String] {
+    func locationsToStrings() throws -> [String] {
+        let descriptor = FetchDescriptor<Location>(sortBy: [SortDescriptor(\.name)])
+        let locations = try modelContext.fetch(descriptor)
         return locations.map { $0.name }
     }
     
