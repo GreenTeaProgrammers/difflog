@@ -5,8 +5,8 @@ import ComposableArchitecture
 struct HorizontalWheelPickerReducer {
     @ObservableState
     struct HorizontalWheelPickerState: Equatable{
-        var locations: [String] = []
-        var currentLocation: String?
+        var locations: [String] = ["zero", "one", "two", "three"]
+        var currentLocation: String = "zero"
     }
     
     enum HorizontalWheelPickerAction: Sendable,Equatable{

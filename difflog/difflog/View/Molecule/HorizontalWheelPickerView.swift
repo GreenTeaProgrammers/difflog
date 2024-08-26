@@ -8,13 +8,13 @@ struct HorizontalWheelPickerView: View {
     @State var indexValue: Int = 0
     @State var currentSelected: String = ""
     @State var items: [Int] = []
-
-    @State var itmesName: [String] = ["zero", "one", "two", "three"]
+    @State var itmesName: [String] = []
         
     var body: some View {
         VStack {
             Text("Selected Value: \(currentSelected)")
                 .font(.title)
+            Text("\(items)")
             
             SwiftUIWheelPicker($indexValue, items: $items) { value in
                 GeometryReader { reader in
@@ -29,6 +29,7 @@ struct HorizontalWheelPickerView: View {
             }
         }
         .onAppear {
+            itmesName = store.locations
             items = Array(0..<itmesName.count)
             currentSelected = itmesName[0]
             
