@@ -38,6 +38,8 @@
 		91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D22C78B66000B780E8 /* CaptureResultView.swift */; };
 		91C415D52C78B76000B780E8 /* CommitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C415D42C78B76000B780E8 /* CommitEditView.swift */; };
 		C4D1821CE2E14F5D3B89D1D4 /* Pods_difflogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACE145A28832EA0A10A5A66 /* Pods_difflogTests.framework */; };
+		E1A6C3412C7C751D002BE819 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6C3402C7C751C002BE819 /* TabBarView.swift */; };
+		E1A6C3442C7C9793002BE819 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A6C3432C7C9793002BE819 /* BlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		91C415CF2C78B1B400B780E8 /* LodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodingView.swift; sourceTree = "<group>"; };
 		91C415D22C78B66000B780E8 /* CaptureResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureResultView.swift; sourceTree = "<group>"; };
 		91C415D42C78B76000B780E8 /* CommitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitEditView.swift; sourceTree = "<group>"; };
+		E1A6C3402C7C751C002BE819 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		E1A6C3432C7C9793002BE819 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		F65629F900AF2CF92F4E6601 /* Pods-difflogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-difflogTests.debug.xcconfig"; path = "Target Support Files/Pods-difflogTests/Pods-difflogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC8F4B51B4C94C3A99EB1301 /* Pods-difflogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-difflogTests.release.xcconfig"; path = "Target Support Files/Pods-difflogTests/Pods-difflogTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE35E826BAC48634691D9000 /* Pods_difflog_difflogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_difflog_difflogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				912675292C7B52C200378D91 /* HorizontalWheelPickerView.swift */,
+				E1A6C3402C7C751C002BE819 /* TabBarView.swift */,
 			);
 			path = Molecule;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			children = (
 				912675272C7B520400378D91 /* Pages */,
 				912675282C7B521800378D91 /* Molecule */,
+				E1A6C3422C7C973A002BE819 /* Atoms */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,6 +355,14 @@
 				4ACE145A28832EA0A10A5A66 /* Pods_difflogTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A6C3422C7C973A002BE819 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6C3432C7C9793002BE819 /* BlockView.swift */,
+			);
+			path = Atoms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,9 +625,11 @@
 				91C415D32C78B66000B780E8 /* CaptureResultView.swift in Sources */,
 				912675242C7B4E0900378D91 /* HorizontalWheelPickerReducer.swift in Sources */,
 				86FBF4322C77196000B0007E /* Item.swift in Sources */,
+				E1A6C3442C7C9793002BE819 /* BlockView.swift in Sources */,
 				91C415BC2C7862B100B780E8 /* LocationListView.swift in Sources */,
 				91C415B82C78625200B780E8 /* AnalyticsView.swift in Sources */,
 				91C415C12C7863BA00B780E8 /* LocationDetailsView.swift in Sources */,
+				E1A6C3412C7C751D002BE819 /* TabBarView.swift in Sources */,
 				86FBF42E2C77196000B0007E /* difflogApp.swift in Sources */,
 				91C415CB2C7866A400B780E8 /* CaptureView.swift in Sources */,
 				91C415C62C78654D00B780E8 /* CreateLocationView.swift in Sources */,

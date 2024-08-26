@@ -1,8 +1,17 @@
-//
-//  HomeView.swift
-//  difflog
-//
-//  Created by 佐藤 墾 on 2024/08/23.
-//
+
 
 import Foundation
+import SwiftUI
+import ComposableArchitecture
+
+struct HomeView:View {
+    var body: some View {
+        VStack{
+            Text("home")
+            HorizontalWheelPickerView(store:Store(initialState:HorizontalWheelPickerReducer.HorizontalWheelPickerState()){
+                HorizontalWheelPickerReducer()
+            })
+        }
+        
+    }
+}
