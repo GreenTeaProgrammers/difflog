@@ -1,0 +1,6 @@
+framework module Pods_difflog_difflogUITests {
+  umbrella header "Pods-difflog-difflogUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
